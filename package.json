@@ -1,0 +1,33 @@
+{
+  "name": "pay-gate",
+  "version": "1.0.0",
+  "description": "Node JS implementation of payment gateway",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasfame/pay-gate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasfame/pay-gate/issues"
+  },
+  "homepage": "https://github.com/Nasfame/pay-gate#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.5.5",
+    "passport": "^0.5.2",
+    "passport-http-bearer": "^1.0.1",
+    "sequelize": "^6.17.0"
+  }
+}
