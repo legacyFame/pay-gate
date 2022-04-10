@@ -1,0 +1,6 @@
+user
+id first last city zipcode balance
+
+transactions
+id snd_id rcv_id  amt timestamp
+

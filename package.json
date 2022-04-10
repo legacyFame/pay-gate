@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node --experimental-specifier-resolution=node app.js",
     "dev": "nodemon app.js"
   },
   "repository": {
@@ -21,13 +21,23 @@
   },
   "homepage": "https://github.com/Nasfame/pay-gate#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "express-session": "^1.17.2",
     "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^2.3.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "npm": "^8.5.5",
     "passport": "^0.5.2",
     "passport-http-bearer": "^1.0.1",
-    "sequelize": "^6.17.0"
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "python3": "0.0.1",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
   }
 }
